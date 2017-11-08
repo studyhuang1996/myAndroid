@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF2FB"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="头像:"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/logo_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+           android:layout_marginLeft="140dp"
+            android:layout_weight="0.16" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="1">
+        <TextView
+            android:text="工号："
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="id"
+            android:textSize="18sp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/teaid" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="1">
+        <TextView
+            android:text="昵称："
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="姓名"
+            android:textSize="18sp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/teaname" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="1">
+        <TextView
+            android:text="性别："
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="sex"
+            android:textSize="18sp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/teasex" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="1">
+        <TextView
+            android:text="所教课程"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="课程"
+            android:textSize="18sp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacourse" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="1">
+        <TextView
+            android:text="所教班级"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="班级"
+            android:textSize="18sp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/courseclass" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="修  改 密 码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/updatetea" />
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize"
+            app:title="查询作业成绩"
+            app:titleTextColor="#FFF"
+            android:id="@+id/toolbar2" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <TextView
+            android:text="课程名"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cname"
+            />
+
+        <TextView
+            android:text="作业名"
+            android:textSize="28sp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/workname"
+            />
+
+        <TextView
+            android:text="成绩"
+            android:textSize="28sp"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/workscore"
+            />
+
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/work_list"
+            android:layout_width="wrap_content"
+            android:layout_height="284dp" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:text="课程名："
+        android:textSize="28sp"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_marginLeft="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        />
+    <TextView
+        android:text="作业平均成绩"
+        android:textSize="28sp"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_marginLeft="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        />
+
+</LinearLayout>
+
+
+
+</LinearLayout>

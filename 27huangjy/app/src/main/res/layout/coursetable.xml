@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <!--<com.alamkanak.weekview.WeekView
+        android:id="@+id/weekView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:eventTextColor="@android:color/white"
+        app:textSize="12sp"
+        app:hourHeight="60dp"
+        app:headerColumnPadding="8dp"
+        app:headerColumnTextColor="#8f000000"
+        app:headerRowPadding="12dp"
+        app:columnGap="8dp"
+        app:noOfVisibleDays="3"
+        app:headerRowBackgroundColor="#ffefefef"
+        app:dayBackgroundColor="#05000000"
+        app:todayBackgroundColor="#1848adff"
+        app:headerColumnBackground="#ffffffff"/>-->
+
+
+   <LinearLayout
+       android:background="#ffefefef"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:orientation="horizontal">
+
+      <TextView
+          android:text="5月份"
+          android:gravity="center"
+          android:layout_width="60dp"
+          android:textAlignment="center"
+          android:layout_height="60dp"
+          android:id="@+id/textView"
+        />
+
+      <TextView
+          android:text="周一"
+          android:layout_width="45dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/first" />
+
+      <TextView
+          android:text="周二"
+          android:layout_width="45dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/second" />
+
+      <TextView
+          android:text="周三"
+          android:layout_width="45dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/third"
+          />
+      <TextView
+          android:text="周四"
+          android:layout_width="45dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/four"
+          />
+      <TextView
+          android:text="周五"
+          android:layout_width="45dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/five"
+          />
+      <TextView
+          android:text="周六"
+          android:layout_width="45dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/six"
+          />
+      <TextView
+          android:text="周日"
+          android:layout_width="45dp"
+          android:layout_height="55dp"
+          android:padding="10dp"
+          android:id="@+id/seven"
+          />
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:background="#ffefefef"
+       android:layout_width="60dp"
+       android:gravity="left"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+      <TextView
+          android:text="1"
+          android:gravity="center"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:id="@+id/id1"
+          />
+
+      <TextView
+          android:text="2"
+          android:gravity="center"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/id2" />
+
+      <TextView
+          android:text="3"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:gravity="center"
+          android:padding="10dp"
+          android:id="@+id/id3" />
+
+      <TextView
+          android:text="4"
+          android:gravity="center"
+          android:layout_width="60dp"
+          android:layout_height="72dp"
+          android:padding="10dp"
+          android:id="@+id/id4"
+          />
+
+      <TextView
+          android:text="5"
+          android:gravity="center"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/id5"
+          />
+
+      <TextView
+          android:text="6"
+          android:gravity="center"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/id6"
+          />
+      <TextView
+          android:text="7"
+          android:gravity="center"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/id7"
+          />
+
+      <TextView
+          android:text="8"
+          android:gravity="center"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:padding="10dp"
+          android:id="@+id/id8"
+          />
+   </LinearLayout>
+
+   <GridView
+       android:id="@+id/table"
+       android:numColumns="7"
+       android:columnWidth="45dp"
+       android:stretchMode="columnWidth"
+       android:layout_width="326dp"
+       android:layout_height="480dp"
+       android:cacheColorHint="#000"
+       android:listSelector="@color/colorPrimary"
+       android:layout_marginTop="-505dp"
+       android:layout_gravity="right"
+       />
+
+
+   <!--<android.support.v7.widget.RecyclerViewi
+        android:id="@+id/recycler"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+
+        >
+
+     </android.support.v7.widget.RecyclerViewi>-->
+</LinearLayout>
+

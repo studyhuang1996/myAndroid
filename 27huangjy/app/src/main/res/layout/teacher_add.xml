@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF2FB">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:title="教师管理"
+        app:titleTextColor="#FFF"
+        />
+    <Button
+        android:text="查询教师信息"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dff"
+        android:id="@+id/select" />
+    <TextView
+        android:text="教师添加"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="密码默认123456请自行修改"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView4" />
+    <EditText
+        android:id="@+id/e_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入老师工号"/>
+    <EditText
+        android:id="@+id/e_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入老师姓名"/>
+    <EditText
+        android:id="@+id/e_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入所教班级"/>
+    <EditText
+        android:id="@+id/e_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入教师性别"/>
+    <EditText
+        android:id="@+id/e_major"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入任教专业"/>
+    <Button
+        android:text="添加教师"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/addTea" />
+</LinearLayout>

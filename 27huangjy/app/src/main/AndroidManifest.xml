@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.huang.a27huangjy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="27黄静莹"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="com.example.huang.a27huangjy.MyApplication"
+        >
+        <meta-data android:name="design_width" android:value="768">
+        </meta-data>
+        <meta-data android:name="design_height" android:value="1280">
+        </meta-data>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainTeacher"/>
+        <activity android:name="com.example.huang.student.stuinfo"/>
+        <activity android:name="com.example.huang.teacher.teacherInfo"/>
+        <activity android:name="com.example.huang.teacher.updateTea"/>
+        <activity android:name="com.example.huang.teacher.addWork"
+            />
+        <activity android:name="com.example.huang.teacher.chuqin"/>
+        <activity android:name="com.example.huang.teacher.CourseTable"/>
+        <activity android:name="com.example.huang.teacher.pingjia"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+
+
+
+        <activity android:name="com.example.huang.student.stuEve"/>
+
+        <activity android:name=".Admin"/>
+        <activity android:name="com.example.huang.admin.adminIndex"/>
+       <activity android:name="com.example.huang.admin.selectStu"/>
+        <activity android:name="com.example.huang.admin.EditStu"/>
+        <activity android:name="com.example.huang.admin.EditTea"/>
+        <activity android:name="com.example.huang.admin.selectTea"/>
+        <activity android:name="com.example.huang.admin.showCourse"/>c
+        <activity android:name="com.example.huang.admin.EditCourse"/>
+        <activity android:name="com.example.huang.admin.selectCourse"/>
+
+
+        <activity android:name="com.example.huang.student.MainStudent"/>
+        <activity android:name="com.example.huang.student.ModifyStu"/>
+        <activity android:name="com.example.huang.student.stuChuqin"/>
+       <activity android:name="com.example.huang.student.qimoScore"/>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+   <uses-permission
+       android:name="android.permission.INTERNET"/>
+</manifest>

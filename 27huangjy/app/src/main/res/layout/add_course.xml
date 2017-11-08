@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:title="课程管理"
+        app:titleTextColor="#FFF"
+        app:menu="@menu/tool_menu"
+        />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="添加课程"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="查询"
+        android:layout_marginLeft="100dp"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:background="#FFAEB9"
+        android:id="@+id/button"
+     />
+</LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/e_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00f"
+        android:hint="请输入课程编号"/>
+    <EditText
+        android:id="@+id/e_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入课程名称"/>
+    <EditText
+        android:id="@+id/e_shangclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入所要上课班级"/>
+    <EditText
+        android:id="@+id/teaname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#00f"
+        android:hint="请输入任课老师"/>
+    <EditText
+        android:id="@+id/e_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入周数"/>
+
+    <EditText
+        android:id="@+id/e_jieshu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入节数"/>
+
+    <EditText
+        android:id="@+id/e_classaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入上课地点"/>
+    <Button
+        android:text="添加课程"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/addCourse" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:text="工号"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:id="@+id/sid"
+        />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:text="姓名"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="#f00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sname"
+        />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:text="专业"
+        android:textSize="18sp"
+        android:textColor="#f00"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smajor"
+        />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+       android:text="班级"
+        android:textSize="18sp"
+        android:textColor="#FF4081"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sclass"
+        />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:text="性别"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:textColor="#f00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ssex"
+         />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        android:id="@+id/s_edit"
+        android:background="@android:drawable/ic_menu_edit"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        app:srcCompat="@android:drawable/ic_delete"
+        android:id="@+id/sdelete"
+        android:background="@android:drawable/ic_delete"
+        android:layout_weight="1" />
+</LinearLayout>

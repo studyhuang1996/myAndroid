@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF2FB"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:title="学生管理"
+        app:titleTextColor="#FFF"
+        />
+
+    <Button
+    android:text="查询学生信息"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:background="#dff"
+    android:id="@+id/select" />
+
+    <TextView
+        android:text="学生添加"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        />
+    <TextView
+        android:text="密码默认123456请自行修改"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView4" />
+      <EditText
+          android:id="@+id/e_id"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:textColor="#00f"
+          android:hint="请输入学生学号"/>
+    <EditText
+        android:id="@+id/e_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入学生姓名"/>
+
+    <EditText
+        android:id="@+id/e_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#00f"
+        android:hint="请输入学生班级"/>
+    <EditText
+        android:id="@+id/e_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入学生性别"/>
+    <EditText
+        android:id="@+id/e_major"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00f"
+        android:hint="请输入学生专业"/>
+
+    <Button
+        android:text="添加新同学"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/addStu" />
+</LinearLayout>

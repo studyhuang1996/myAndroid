@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+    <item
+        android:id="@+id/teainfo"
+        android:icon="@mipmap/ic_launcher"
+        android:title="个人信息" />
+        <item
+            android:id="@+id/teacourse"
+            android:icon="@mipmap/ic_launcher"
+            android:title="课程表" />
+    <item
+        android:id="@+id/attendance"
+        android:icon="@mipmap/ic_launcher"
+        android:title="出勤管理" />
+    <item
+        android:id="@+id/evaluate"
+        android:icon="@mipmap/ic_launcher"
+        android:title="课程评价管理" />
+    <item
+        android:id="@+id/work"
+        android:icon="@mipmap/ic_launcher"
+        android:title="作业成绩管理" />
+    </group>
+</menu>
